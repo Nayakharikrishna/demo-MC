@@ -7,8 +7,6 @@ pipeline {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/Nayakharikrishna/demo-MC.git',
-                    credentialsId: 'nayakharikrishna'
-
                 echo 'Checked out code from Git'
             }
         }
