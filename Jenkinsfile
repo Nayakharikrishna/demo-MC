@@ -1,6 +1,6 @@
 
 pipeline {
-    agent demo
+    agent "demo"
 
     stages {
         stage('Code Checkout') {
