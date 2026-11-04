@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Code Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/adarsh0331/Project_03_CICD_Python_Docker.git'
+                git branch: 'main', url: 'https://github.com/Nayakharikrishna/demo-MC'
                 echo 'Checked out code from Git'
             }
         }
